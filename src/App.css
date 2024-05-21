@@ -1,9 +1,24 @@
 .app{
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+.portoflio {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  color: white;
+}
+
+.section {
+  width: 100%;
+  background-color: yellow;
 }
