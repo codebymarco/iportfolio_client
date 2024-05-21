@@ -5,6 +5,7 @@ const Router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/portfolio/:username"></Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
